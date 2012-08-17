@@ -18,7 +18,7 @@ BRCM_BTL_INCLUDE_A2DP := true
 BRCM_BT_USE_BTL_IF := true
 
 # Camera
-USE_CAMERA_STUB := false
+USE_CAMERA_STUB := true
 ifeq ($(USE_CAMERA_STUB),false)
 BOARD_CAMERA_LIBRARIES := libcamera
 endif
